@@ -39,23 +39,25 @@ jobs:
           python py/zubo.pgen_custom_list.py || echo "跳过"
           python py/convert_full_m3u.py || echo "跳过"
 
-
       - name: 📤 提交并推送更新
         run: |
           git config --local user.name "github-actions[bot]"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
 
-          # 确保追踪所有相关文件
-          touch py/blacklist.txt
-          git add py/*.txt py/*.m3u test/*.m3u || true
+          # 强制添加所有可能被脚本修改的文件，不使用模糊匹配以防报错
+          # 确保包含 py/ 目录下的 txt 和 test/ 目录下的 m3u
+          git add py/*.txt || true
+          git add test/*.m3u || true
+          git add *.m3u || true
 
-          if git diff --staged --quiet; then
-            echo "✅ 内容未发生实质变化，跳过推送。"
+          # 关键修改：检查所有变动（包括新文件）
+          if git diff --cached --quiet; then
+            echo "✅ 经对比，文件内容无任何实际变动，跳过推送。"
           else
-            echo "🚀 发现变更，正在同步至仓库..."
+            echo "🚀 检测到本地文件已更新，准备推送..."
             git commit -m "自动更新：线路维护与黑名单 ($(date +'%Y-%m-%d %H:%M'))"
             
-            # 解决冲突的关键：先拉取并以本地新生成的为准
+            # 使用更安全的合并策略
             git pull --rebase -X ours origin main
             git push origin main
           fi
