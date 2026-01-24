@@ -38,7 +38,7 @@ jobs:
           python py/convert_to_m3u.py || echo "跳过"
           python py/zubo.pgen_custom_list.py || echo "跳过"
           python py/convert_full_m3u.py || echo "跳过"
-          python generate_index.py || echo "跳过"
+
 
       - name: 📤 提交并推送更新
         run: |
@@ -47,7 +47,7 @@ jobs:
 
           # 确保追踪所有相关文件
           touch py/blacklist.txt
-          git add py/*.txt py/*.m3u test/*.m3u index.html || true
+          git add py/*.txt py/*.m3u test/*.m3u || true
 
           if git diff --staged --quiet; then
             echo "✅ 内容未发生实质变化，跳过推送。"
