@@ -4,8 +4,8 @@ import re
 # --- 配置区 ---
 INPUT_FILE = "py/live_full.txt"
 OUTPUT_M3U = "test/IPTV2.m3u"
-LOGO_BASE = "https://gcore.jsdelivr.net/gh/kenye201/TVlog/img/"
-EPG_URL = "https://live.fanmingming.com/e.xml"
+LOGO_BASE = "https://tb.yubo.qzz.io/logo/"
+EPG_URL = "https://live.beo.qzz.io/e.xml"
 
 # 7大核心卫视顺序
 CORE_SATELLITE = ["湖南卫视", "东方卫视", "浙江卫视", "江苏卫视", "北京卫视", "湖北卫视", "深圳卫视"]
