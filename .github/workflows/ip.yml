@@ -39,26 +39,19 @@ jobs:
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@users.noreply.github.com"
           
-          # 1. 先把所有改动添加到暂存区
-          git add py/计数.txt
-          git add ip/*.txt || true
-          git add test/IPTV.m3u || true
-          git add test/IPTV.txt || true
+          # 1. 暂存所有可能的变动（包括新生成的文件）
+          git add .
           
-          # 2. 提交到本地仓库（如果没有改动则跳过）
+          # 2. 检查是否有变动需要提交
           if git diff --staged --quiet; then
-            echo "⚠️ 没有发现文件变动，跳过提交"
+            echo "⚠️ 没有发现任何文件变动，跳过。"
           else
             git commit -m "自动更新：数据及IP列表 [$(date '+%Y-%m-%d %H:%M')]"
             
-            # 3. 关键：提交后再拉取远程更新，并进行变基
-            # 如果远程有更新，这一步会自动把你的 commit 放到远程 commit 之后
-            git pull origin main --rebase
+            # 3. 强制拉取并变基
+            # 如果还有报错，这里使用 --autostash 确保万无一失
+            git pull origin main --rebase --autostash
             
-            # 4. 最后推送
+            # 4. 推送
             git push origin main
           fi
-          git commit -m "自动更新：py/计数、IP文件、test/IPTV.txt" || echo "⚠️ 无需提交"
-          
-          # 推送代码，如果失败尝试再次拉取合并
-          git push origin main || (git pull origin main --rebase && git push origin main)
