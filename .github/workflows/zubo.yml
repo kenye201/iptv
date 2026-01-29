@@ -33,15 +33,11 @@ jobs:
           PYTHONUNBUFFERED: "1"  # 强制实时输出日志
         run: python py/speed_filter.py
 
-      - name: 2.1 转换为标准 M3U
-        run: python py/convert_to_m3u.py
-        continue-on-error: true  # 相当于之前的 || echo "跳过"
-
-      - name: 2.2 生成自定义组播列表
+      - name: 2.1 生成自定义组播列表
         run: python py/zubo.pgen_custom_list.py
         continue-on-error: true
 
-      - name: 2.3 生成全量 M3U 文件
+      - name: 2.2 生成全量 M3U 文件
         run: python py/convert_full_m3u.py
         continue-on-error: true
 
