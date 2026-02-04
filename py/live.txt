@@ -1,82 +1,13 @@
 更新时间,#genre#
-2026-02-04 18:25:06,#genre#
+2026-02-05 02:10:26,#genre#
 
 央视频道,#genre#
-CCTV1,http://www.brucex.space:4022/rtp/239.3.1.129:8008
-CCTV2,http://www.brucex.space:4022/rtp/239.3.1.60:8084
-CCTV3,http://www.brucex.space:4022/rtp/239.3.1.172:8001
-CCTV4,http://www.brucex.space:4022/rtp/239.3.1.105:8092
-CCTV4欧洲,http://www.brucex.space:4022/rtp/239.3.1.213:4220
-CCTV4美洲,http://www.brucex.space:4022/rtp/239.3.1.214:4220
-CCTV5,http://www.brucex.space:4022/rtp/239.3.1.173:8001
-CCTV5+,http://www.brucex.space:4022/rtp/239.3.1.130:8004
-CCTV6,http://www.brucex.space:4022/rtp/239.3.1.174:8001
-CCTV7,http://www.brucex.space:4022/rtp/239.3.1.61:8104
-CCTV8,http://www.brucex.space:4022/rtp/239.3.1.175:8001
-CCTV9,http://www.brucex.space:4022/rtp/239.3.1.62:8112
-CCTV10,http://www.brucex.space:4022/rtp/239.3.1.63:8116
-CCTV11,http://www.brucex.space:4022/rtp/239.3.1.152:8120
-CCTV12,http://www.brucex.space:4022/rtp/239.3.1.64:8124
-CCTV13,http://www.brucex.space:4022/rtp/239.3.1.124:8128
-CCTV14,http://www.brucex.space:4022/rtp/239.3.1.65:8132
-CCTV15,http://www.brucex.space:4022/rtp/239.3.1.153:8136
-CCTV16,http://www.brucex.space:4022/rtp/239.3.1.184:8001
-CCTV17,http://www.brucex.space:4022/rtp/239.3.1.151:8144
 
 卫视频道,#genre#
-湖南卫视,http://www.brucex.space:4022/rtp/239.3.1.132:8012
-浙江卫视,http://www.brucex.space:4022/rtp/239.3.1.137:8036
-江苏卫视,http://www.brucex.space:4022/rtp/239.3.1.135:8028
-东方卫视,http://www.brucex.space:4022/rtp/239.3.1.136:8032
-深圳卫视,http://www.brucex.space:4022/rtp/239.3.1.134:8020
-北京卫视,http://www.brucex.space:4022/rtp/239.3.1.241:8000
-广东卫视,http://www.brucex.space:4022/rtp/239.3.1.142:8048
-东南卫视,http://www.brucex.space:4022/rtp/239.3.1.156:8148
-河北卫视,http://www.brucex.space:4022/rtp/239.3.1.148:8072
-河南卫视,http://www.brucex.space:4022/rtp/239.3.1.50:8184
-湖北卫视,http://www.brucex.space:4022/rtp/239.3.1.138:8044
-江西卫视,http://www.brucex.space:4022/rtp/239.3.1.123:8164
-重庆卫视,http://www.brucex.space:4022/rtp/239.3.1.122:8160
-贵州卫视,http://www.brucex.space:4022/rtp/239.3.1.149:8076
-天津卫视,http://www.brucex.space:4022/rtp/239.3.1.141:1234
-安徽卫视,http://www.brucex.space:4022/rtp/239.3.1.211:8064
-山东卫视,http://www.brucex.space:4022/rtp/239.3.1.209:8052
-辽宁卫视,http://www.brucex.space:4022/rtp/239.3.1.210:8056
-黑龙江卫视,http://www.brucex.space:4022/rtp/239.3.1.133:8016
-吉林卫视,http://www.brucex.space:4022/rtp/239.3.1.240:8172
-西藏卫视,http://www.brucex.space:4022/rtp/239.3.1.166:8188
-山东教育卫视,http://www.brucex.space:4022/rtp/239.3.1.52:4120
-中国教育1台,http://www.brucex.space:4022/rtp/239.3.1.57:8152
-中国教育2台,http://www.brucex.space:4022/rtp/239.3.1.54:4120
-中国教育4台,http://www.brucex.space:4022/rtp/239.3.1.56:4120
 
 数字频道,#genre#
-淘电影,http://www.brucex.space:4022/rtp/239.3.1.250:8001
-淘剧场,http://www.brucex.space:4022/rtp/239.3.1.95:8001
-淘娱乐,http://www.brucex.space:4022/rtp/239.3.1.100:8001
-金鹰纪实,http://www.brucex.space:4022/rtp/239.3.1.58:8156
-纪实科教,http://www.brucex.space:4022/rtp/239.3.1.115:8000
-睛彩青少,http://www.brucex.space:4022/rtp/239.3.1.127:8001
-睛彩竞技,http://www.brucex.space:4022/rtp/239.3.1.125:8001
-睛彩篮球,http://www.brucex.space:4022/rtp/239.3.1.126:8001
-睛彩广场舞,http://www.brucex.space:4022/rtp/239.3.1.128:8001
-快乐垂钓,http://www.brucex.space:4022/rtp/239.3.1.164:8001
-茶频道,http://www.brucex.space:4022/rtp/239.3.1.165:8001
-卡酷少儿,http://www.brucex.space:4022/rtp/239.3.1.189:8000
-金鹰卡通,http://www.brucex.space:4022/rtp/239.3.1.51:9252
-嘉佳卡通,http://www.brucex.space:4022/rtp/239.3.1.147:9268
-中国交通,http://www.brucex.space:4022/rtp/239.3.1.188:8001
 
 4K频道,#genre#
-东方卫视4K,http://www.brucex.space:4022/rtp/239.3.1.119:3006
-北京卫视4K,http://www.brucex.space:4022/rtp/239.3.1.118:8001
-江苏卫视4K,http://www.brucex.space:4022/rtp/239.3.1.113:3003
-浙江卫视4K,http://www.brucex.space:4022/rtp/239.3.1.114:3004
-湖南卫视4K,http://www.brucex.space:4022/rtp/239.3.1.112:3002
-深圳卫视4K,http://www.brucex.space:4022/rtp/239.3.1.202:2000
-四川卫视4K,http://www.brucex.space:4022/rtp/239.3.1.131:3001
-山东卫视4K,http://www.brucex.space:4022/rtp/239.3.1.144:3005
-广东卫视4K,http://www.brucex.space:4022/rtp/239.3.1.203:2000
 
 湖北,#genre#
 
