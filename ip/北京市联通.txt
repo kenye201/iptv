@@ -69,3 +69,4 @@ cards.imwork.net:8086
 114.250.22.113:55555
 125.33.250.216:55555
 drive.mxmy.net:8888
+drive.mxmy.net:8888
