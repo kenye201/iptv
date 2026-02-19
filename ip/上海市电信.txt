@@ -8,3 +8,4 @@ www.jay.sh.cn
 180.172.153.180:8001
 raytitor.cn:8888
 raytitor.cn:8888
+58.35.230.74:8001
