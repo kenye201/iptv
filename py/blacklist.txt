@@ -2205,3 +2205,15 @@ www.lvyjay.win:4022 # 死链
 114.95.80.29:9001 # 屏蔽区域: Shanghai China Telecom (Group)
 223.242.146.187:4022 # 死链
 111.167.17.186:5002 # 死链
+183.56.120.113:40000 # 屏蔽区域: Guangdong China Telecom
+115.199.186.25:8888 # 死链
+106.59.2.73:55555 # 死链
+183.56.120.114:40000 # 屏蔽区域: Guangdong China Telecom
+113.78.253.12:4000 # 死链
+117.83.182.137:9999 # 屏蔽区域: Jiangsu China Telecom
+112.67.37.189:8686 # 死链
+59.35.221.134:1024 # 屏蔽区域: Guangdong China Telecom
+218.1.138.207:4022 # 屏蔽区域: Shanghai China Telecom (Group)
+114.95.80.29:9001 # 屏蔽区域: Shanghai China Telecom (Group)
+223.242.146.187:4022 # 死链
+111.167.17.186:5002 # 死链
