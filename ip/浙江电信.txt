@@ -1,3 +1,2 @@
-nuonuojiajia.xyz:4022
-115.239.57.187:9999
 122.231.214.151:4000
+nuonuojiajia.xyz:4022
